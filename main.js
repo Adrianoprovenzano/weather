@@ -1,6 +1,6 @@
 const api = {
   key: "b965186ea161a688175dcd9a32a08fea",
-  base: "http://api.openweathermap.org/data/2.5/"
+  base: "https://api.openweathermap.org/data/2.5/"
 }
 
 //get geoInfo
