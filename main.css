@@ -1,0 +1,105 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'montserrat', sans-serif;
+  /* background: url('bg.jpg')no-repeat center center/cover; */
+  transition: .7s linear;
+}
+
+.app-wrap {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 130px 15px 15px;
+}
+
+header input {
+  width: 100%;
+  max-width: 280px;
+  padding: 10px 15px;
+  border: none;
+  outline: none;
+  background-color: rgba(255, 255, 255, 0.3);
+  border-radius: 25px;
+  text-align: center;
+  color: #313131;
+  font-size: 20px;
+  font-weight: 300;
+  transition: 0.2s ease-out;
+}
+header input::placeholder {
+  color: #fff;
+}
+header input:focus {
+  background-color: rgba(255, 255, 255, 0.6);
+}
+
+main {
+  flex: 1 1 100%;
+  padding: 25px 25px 50px;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.box{
+  min-width: 40%;
+  border: 1px transparent;
+  border-radius: 25px;
+  box-shadow: rgba(100, 100, 111, 0.4) 0px 7px 29px 0px;
+  padding: 4rem 0;
+  background: linear-gradient(rgba(206, 211, 218, 0.9),rgba(70, 145, 202, 0.3));
+}
+
+.location .city {
+  color: #FFF;
+  font-size: 42px;
+  font-weight: 500;
+  margin-bottom: 5px;
+}
+
+.location .date {
+  color: #FFF;
+  font-size: 16px;
+}
+
+.current .temp {
+  color: #FFF;
+  font-size: 102px;
+  font-weight: 900;
+  margin: 30px 0px;
+  text-shadow: 3px 3px rgb(0 0 0 / 22%)
+}
+
+.current .temp span {
+  font-weight: 500;
+}
+
+.current .weather {
+  color: #FFF;
+  font-size: 22px;
+  font-weight: 700;
+  font-style: italic;
+  margin-bottom: 15px;
+  text-shadow: 0px 2px rgba(0, 0, 0, 0.2);
+}
+
+.current .hi-low {
+  color: #FFF;
+  font-size: 24px;
+  font-weight: 500;
+  text-shadow: 0px 2px rgba(0, 0, 0, 0.2);
+}
