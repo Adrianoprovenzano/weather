@@ -65,7 +65,7 @@ function displayResults (weather) {
   temp.innerHTML = `${Math.round(weather.main.temp)}<span>°c</span>`;
 
   let weather_el = document.querySelector('.current .weather');
-  var iconurl = "http://openweathermap.org/img/w/" + `${weather.weather[0].icon}` + ".png";
+  var iconurl = "https://openweathermap.org/img/w/" + `${weather.weather[0].icon}` + ".png";
   document.getElementById('wicon').setAttribute('src', iconurl);
 
 
